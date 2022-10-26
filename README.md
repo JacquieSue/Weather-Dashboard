@@ -25,7 +25,7 @@ THEN specify the city's that are going to be used
 
 THEN  connect the city's elements to local storage
 
- ![alt text](assets/images/screenshot.png)
+ ![weather dashboard](assets/image/Screen Shot 2022-10-25 at 10.18.00 PM.png)
 
 ## Credits
 ## License

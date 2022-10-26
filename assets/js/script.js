@@ -18,7 +18,6 @@ var listEl = $('#cities-list');
   // select form element by its `name` attribute and get its value
   var newCity = $('input[name="city-input"]').val();
 
-
 function searchCity(event){
     event.preventDefault();
     //add localStorage to the Cities-list
@@ -27,7 +26,7 @@ function searchCity(event){
    
 fetch(queryURL).then(weatherResponse =>{
     console.log(weatherResponse)
-    if( weatherResponse.ok){
+    if(weatherResponse.ok){
         weatherResponse.json().then(weatherData =>{
             console.log(weatherData)
             cityName.textContent = weatherData.name;
