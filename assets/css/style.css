@@ -4,8 +4,58 @@ header {
 justify-content: center; /* why isn't this working? */
 }
 
+* {
+  box-sizing: border-box;
+}
 
 
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+
+.card-1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: steelblue;
+  color: rgb(176, 175, 175);
+}
+
+.card-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: steelblue;
+  color: rgb(176, 175, 175);
+}
+
+.card-3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: steelblue;
+  color: rgb(176, 175, 175);
+}
+
+.card-4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: steelblue;
+  color: rgb(176, 175, 175);
+}
+
+
+.results-container {
+  border: solid steelblue;
+}
 
 
 
