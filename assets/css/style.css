@@ -12,21 +12,20 @@ justify-content: center; /* why isn't this working? */
 .column {
   float: left;
   width: 25%;
-  padding: 0 10px;
+  padding: 0 5px;
+  margin-top: 10px;
+
 }
 
 .row {
   margin: 0 -5px;
 }
 
-
 .card-1 {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: steelblue;
-  color: rgb(176, 175, 175);
-}
+  border: solid steelblue;
+  width: 100%;
+  box-sizing: border-box;
+  }
 
 .card-2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
@@ -52,9 +51,17 @@ justify-content: center; /* why isn't this working? */
   color: rgb(176, 175, 175);
 }
 
+.card-5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: steelblue;
+  color: rgb(176, 175, 175);
+}
+
 
 .results-container {
-  border: solid steelblue;
+  /* border: solid steelblue; */
 }
 
 
